@@ -1,0 +1,81 @@
+.bging{
+    background-image:url(/first.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 950px;
+}
+.bb{
+    padding: 300px;
+    box-sizing: border-box;
+    margin-top: 250px;
+}
+.bb h1{
+        font-size: 70px;
+    font-weight: bolder;
+    font-family: cursive;
+    transition: 0.7s ease;
+    bottom: 100px;
+
+}
+.bb h6{
+    font-size: 28px;
+    padding: 10px;
+    font-family: cursive;
+}
+.bb h1:hover{
+    color: blue;
+    font-size: 74px;
+    
+}
+.bb h6:hover{
+    color: brown;
+}
+@media only screen and (max-width:800px){
+    .bb h1{
+        font-size: 50px;
+        font-weight: bold;
+        font-family: cursive;
+        transition: 0.7s;
+    }
+        .bb{
+        padding: 300px;
+        box-sizing: border-box;
+        margin-top: 100px;
+    }
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+#top{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    transition: 0.8s ease;
+    opacity: o.4;
+    border: 5px solid greenyellow;
+    cursor: progress;
+    animation-name: kk;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+    
+}
+#top:hover{
+    width: 200px;
+    height: 200px;
+}
+@keyframes kk{
+    0%{   border: 5px solid greenyellow;   }
+    15%{   border: 5px solid rgb(226, 15, 15);   }
+    45%{   border: 5px solid rgb(47, 102, 255);   }
+
+}
+#blue{
+    color: red;
+    font-weight: 100;
+}
+#blue:hover{
+    color: blue;
+}
